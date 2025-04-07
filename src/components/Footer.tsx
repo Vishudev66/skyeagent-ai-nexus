@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -35,8 +36,18 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-4">Connect With Us</h4>
             <ul className="space-y-2">
+              <li>
+                <a 
+                  href="https://www.linkedin.com/in/vishnugupta12" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-gray-400 hover:text-white transition-colors flex items-center"
+                >
+                  <Linkedin className="mr-2 h-4 w-4" />
+                  LinkedIn
+                </a>
+              </li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Twitter</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">LinkedIn</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Facebook</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Instagram</a></li>
             </ul>
