@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container-custom">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="col-span-1 md:col-span-1">
             <a href="#" className="text-2xl font-bold flex items-center mb-4">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">skye</span>
               <span>Agent</span>
@@ -51,9 +51,6 @@ const Footer = () => {
                   LinkedIn
                 </a>
               </li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Twitter</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Facebook</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Instagram</a></li>
             </ul>
           </div>
         </div>
