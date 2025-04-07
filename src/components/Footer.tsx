@@ -42,6 +42,10 @@ const Footer = () => {
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-gray-400 hover:text-white transition-colors flex items-center"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open('https://www.linkedin.com/in/vishnugupta12', '_blank', 'noopener,noreferrer');
+                  }}
                 >
                   <Linkedin className="mr-2 h-4 w-4" />
                   LinkedIn
